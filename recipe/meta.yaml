@@ -1,5 +1,5 @@
 {% set name = "ele" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/rsdefever/ele/archive/v{{ version }}.tar.gz
-  sha256: 72ca474140b147d501df11c046d09978c7f4f8473e9c927b11ce854e69054d2c
+  sha256: 47b46551954b45be4b6a21fe04db7c1becc9565384de9de7dd5fe4ddb814f06e
 
 build:
   noarch: python
